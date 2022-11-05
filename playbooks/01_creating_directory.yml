@@ -1,0 +1,10 @@
+---
+ - name: this playbook is for creating directory
+   hosts: all
+   tasks:
+    
+    - name: create a directory
+      file:
+        path: /tmp/ansible555
+        state: directory
+...

@@ -1,0 +1,10 @@
+---
+ - name: this playbook is for deleting directory
+   hosts: all
+   tasks:
+    
+    - name: delete a directory
+      file:
+        path: /tmp/ansible555
+        state: absent
+...
