@@ -1,10 +1,10 @@
 ---
- - name: this playbook is for creating directory
+ - name: create a directory in mumbai dc servers
    hosts: all
    tasks:
     
     - name: create a directory
       file:
-        path: /tmp/ansible555
+        path: /tmp/ansible55
         state: directory
 ...
