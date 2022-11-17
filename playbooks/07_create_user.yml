@@ -8,3 +8,4 @@
         name: developer1
         state: present
         password: $1$DJN71CPs$rQOfIaDIY9iQqjxMXNLKe.
+...
