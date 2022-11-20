@@ -1,3 +1,18 @@
+ip-172-31-28-121.ec2.internal ansible_user=ec2-user  	#host variable 
+ip-172-31-21-170.ec2.internal
+
 [mumbai]
 ip-172-31-28-121.ec2.internal
 ip-172-31-21-170.ec2.internal
+
+[windows2019]
+
+[mumbai:vars]						#group variable
+ansible_user=ec2-user
+
+[windows2019:vars]
+ansible_user=Administrator
+ansible_password=p@ssw0rd				#use your windows target node password
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
