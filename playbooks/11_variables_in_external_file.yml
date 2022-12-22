@@ -29,4 +29,3 @@
         state: '{{user_st}}'
         password: '{{user_pass}}'
         groups: '{{group_name}}'
-...

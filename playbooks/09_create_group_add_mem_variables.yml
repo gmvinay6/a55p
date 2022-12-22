@@ -30,4 +30,3 @@
         state: present
         password: $1$DJN71CPs$rQOfIaDIY9iQqjxMXNLKe.
         groups: '{{group_name}}'
-...

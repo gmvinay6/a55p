@@ -5,6 +5,6 @@
     
     - name: create a directory
       file:
-        path: /tmp/ansible55
+        path: /tmp/ansible
         state: directory
 ...

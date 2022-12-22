@@ -5,6 +5,6 @@
     
     - name: delete a directory
       file:
-        path: /tmp/ansible55
+        path: /tmp/ansible
         state: absent
 ...

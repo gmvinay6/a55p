@@ -2,13 +2,13 @@
 ansible all -m ping
 
 #create a directory
-ansible all -m file -a "path=/tmp/ansible55 state=directory"
+ansible all -m file -a "path=/tmp/ansible state=directory"
 
 #create a file
-ansible all -m file -a "path=/tmp/ansible55/content state=touch"
+ansible all -m file -a "path=/tmp/ansible/file1.txt state=touch"
 
 #remove a directory
-ansible all -m file -a "path=/tmp/ansible55 state=absent"
+ansible all -m file -a "path=/tmp/ansible state=absent"
 
 #list the files and directory
 ansible all -m command -a "ls -a /tmp"
